@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+<head>
+    <title>工具</title>
+</head>
+<body>
+    <h3>名单核对</h3>
+
+    <style>
+        textarea
+        {
+            width:80%;
+            height:100%;
+        }
+    </style>
+
+    <form action="/check_name.html" method="post">
+        请输入学生姓名清单:</br>
+        <textarea id="text" name="name_list" rows="10"></textarea></br>
+        <input type="submit" value="提交">
+    </form>
+
+</body>
+</html>
