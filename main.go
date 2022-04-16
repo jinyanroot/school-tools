@@ -1,8 +1,8 @@
 package main
 
 import (
-	"GinDemo/controller"
 	"github.com/gin-gonic/gin"
+	"school-tools/controller"
 )
 
 func main() {

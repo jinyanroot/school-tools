@@ -1,4 +1,4 @@
-module GinDemo
+module school-tools
 
 go 1.17
 
